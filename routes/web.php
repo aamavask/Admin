@@ -18,7 +18,9 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
+Route::post('/add_data', 'HomeController@prodinsert');
+Route::get('/prodinfo', 'HomeController@prodinfo');
+Route::get('/show-all-products', 'HomeController@retrive');
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/add-products', 'HomeController@add_products')->name('add products');
