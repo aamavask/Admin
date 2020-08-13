@@ -247,15 +247,7 @@
                                 </p>
                             </a>
                         </li>
-                        {{-- <li class="nav-item">
-                            <a href="pages/widgets.html" class="nav-link">
-                                <i class="nav-icon fas fa-th"></i>
-                                <p>
-                                    Widgets
-                                    <span class="right badge badge-danger">New</span>
-                                </p>
-                            </a>
-                        </li> --}}
+                        
                         <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
                                 <i class="fa fa-bookmark nav-icon" aria-hidden="true"></i>
@@ -302,9 +294,15 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="add-products" class="nav-link">
+                                    <a href="add-service" class="nav-link">
                                         <i class="fa fa-plus nav-icon" aria-hidden="true"></i>
                                         <p>Add Services</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="add-service" class="nav-link">
+                                        <i class="fa fa-plus nav-icon" aria-hidden="true"></i>
+                                        <p>Add Providers</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
