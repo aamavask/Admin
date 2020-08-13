@@ -304,49 +304,49 @@
                                 <li class="nav-item">
                                     <a href="serv1" class="nav-link">
                                         <i class="fa fa-plus nav-icon" aria-hidden="true"></i>
-                                        <p>Services1</p>
+                                        <p>Id</p>
                                     </a>
                                 </li>
                                  <li class="nav-item">
                                     <a href="add-products" class="nav-link">
                                         <i class="fa fa-plus nav-icon" aria-hidden="true"></i>
-                                        <p>Services2</p>
+                                        <p>Serv_name</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
                                         <i class="fa fa-wrench nav-icon" aria-hidden="true"></i>
-                                        <p>Services3</p>
+                                        <p>Providers</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
                                         <i class="fa fa-wrench nav-icon" aria-hidden="true"></i>
-                                        <p>services4</p>
+                                        <p>Heighlights</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/layout/boxed.html" class="nav-link">
                                         <i class="fa fa-ban nav-icon" aria-hidden="true"></i>
-                                        <p>services5</p>
+                                        <p>Short_desc</p>
                                     </a>
                                 </li>
                                   <li class="nav-item">
                                     <a href="pages/layout/boxed.html" class="nav-link">
                                         <i class="fa fa-ban nav-icon" aria-hidden="true"></i>
-                                        <p>services6</p>
+                                        <p>Long_desc</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/layout/boxed.html" class="nav-link">
                                         <i class="fa fa-ban nav-icon" aria-hidden="true"></i>
-                                        <p>services7</p>
+                                        <p>Specifications</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/layout/boxed.html" class="nav-link">
                                         <i class="fa fa-ban nav-icon" aria-hidden="true"></i>
-                                        <p>services8</p>
+                                        <p>Availablity</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">

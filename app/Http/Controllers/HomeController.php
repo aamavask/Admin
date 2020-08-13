@@ -60,6 +60,7 @@ class HomeController extends Controller
     }
     public function service1()
     {
+        $usdt = Admins::where('id', '1')->first();
         return view('dashboard.pages.services.service1', compact('usdt'));
     }
 
