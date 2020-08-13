@@ -58,4 +58,9 @@ class HomeController extends Controller
         $usdt = Admins::where('id', '1')->first();
         return view('dashboard.pages.products.tableret', compact('ret'), compact('usdt'));
     }
+    public function service1()
+    {
+        return view('dashboard.pages.services.service1', compact('usdt'));
+    }
+
 }
