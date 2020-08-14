@@ -56,12 +56,15 @@ class HomeController extends Controller
     {
         $ret = Product::all();
         $usdt = Admins::where('id', '1')->first();
-        return view('dashboard.pages.products.tableret', compact('ret'), compact('usdt'));
+        return view('dashboard.pages.services.add-service', compact('ret'), compact('usdt'));
     }
     public function service1()
     {
         $usdt = Admins::where('id', '1')->first();
-        return view('dashboard.pages.services.add-product', compact('usdt'));
+        return view('dashboard.pages.services.add-service', compact('usdt'));
     }
-
+    public function add_emp(){
+        $usdt = Admins::where('id', '1')->first();
+        return view('dashboard.pages.employee.add-employee', compact('usdt')); 
+    }
 }

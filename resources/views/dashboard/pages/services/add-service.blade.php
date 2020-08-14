@@ -111,7 +111,7 @@
                             </div>
                         </div>
                         <hr>
-                        <h3 style="text-decoration: underline;">Vendor And Stock Details</h3>
+                        {{-- <h3 style="text-decoration: underline;">Vendor And Stock Details</h3>
                         <div class="row">
                             <div class="col-sm-3">
                                 <!-- text input -->
@@ -197,8 +197,8 @@
                                     <input type="number" class="form-control" placeholder="Title" name="Product_Title">
                                 </div>
                             </div>
-                        </div>
-
+                        </div> --}}
+                        
 
                         <div class="card-footer">
                             <button type="submit" class="btn btn-primary"
