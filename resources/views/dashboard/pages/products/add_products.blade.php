@@ -17,7 +17,7 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Product Name</label>
-                                    <input type="text" class="form-control" placeholder="Name" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Enter Product Name" name="Product_Title">
                                 </div>
                             </div>
                             <div class="col-lg-1 col-sm-2 d-flex align-items-end justify-content-center">
