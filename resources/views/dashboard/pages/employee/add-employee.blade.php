@@ -17,21 +17,21 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Full Name</label>
-                                    <input type="text" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="First Name" name="Product_Title">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Last Name</label>
-                                    <input type="text" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Last Name" name="Product_Title">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Email</label>
-                                    <input type="text" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Email" name="Product_Title">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -72,25 +72,39 @@
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
-                                    <label>Addharcard</label>
+                                    <label>Addhar-card</label>
                                     <input type="text" class="form-control" placeholder="Aadhar card" name="Product_Title">
                                 </div>
                             </div>
                         </div>
-                </div>
-                <div class="card-footer">
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!-- text input -->
+                                <div class="form-group">
+                                    <label>Mobile Number</label>
+                                    <div class="input-group mb-6">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fas fa-mobile"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Enter Mobile Number">
 
-                </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+
+                    </form>
+                </div>
+                <!-- /.card-body -->
             </div>
-            <!-- /.card-body -->
-        </div>
-        <!-- /.card -->
-        <!-- general form elements disabled -->
+            <!-- /.card -->
+            <!-- general form elements disabled -->
 
-        <!-- /.card -->
-    </div>
+            <!-- /.card -->
+        </div>
     </div>
 
 
