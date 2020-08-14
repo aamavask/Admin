@@ -41,17 +41,17 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-12">
-                                <!-- text input -->
+                                <!-- textarea -->
                                 <div class="form-group">
                                     <label>Highlights</label>
-                                    <input type="text" class="form-control" placeholder="Enter" name="Product_Title">
+                                    <textarea class="form-control" rows="4" placeholder="Enter Highlights"></textarea>
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <!-- textarea -->
                                 <div class="form-group">
                                     <label>Short Discription</label>
-                                    <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                                    <textarea class="form-control" rows="3" placeholder="Enter Description"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -60,21 +60,21 @@
                                 <!-- textarea -->
                                 <div class="form-group">
                                     <label>Long Discription</label>
-                                    <textarea class="form-control" rows="5" placeholder="Enter ..."></textarea>
+                                    <textarea class="form-control" rows="5" placeholder="Enter Description"></textarea>
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <!-- textarea -->
                                 <div class="form-group">
                                     <label>Specifications</label>
-                                    <textarea class="form-control" rows="4" placeholder="Enter ..."></textarea>
+                                    <textarea class="form-control" rows="4" placeholder="Enter Specifications"></textarea>
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Providers</label>
-                                    <input type="text" class="form-control" placeholder="Enter" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Enter Provider Code" name="Product_Title">
                                 </div>
                             </div>
                            
@@ -84,14 +84,14 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Weights</label>
-                                    <input type="text" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Enter Weight" name="Product_Title">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Sizes</label>
-                                    <input type="text" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Enter Size" name="Product_Title">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -106,14 +106,14 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Category ID</label>
-                                    <input type="text" class="form-control" placeholder="Enter" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Enter ID" name="Product_Title">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Varient ID</label>
-                                    <input type="text" class="form-control" placeholder="Enter" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Enter ID" name="Product_Title">
                                 </div>
                             </div>
                         </div>
@@ -125,28 +125,28 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Regular Price</label>
-                                    <input type="text" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Enter Price" name="Product_Title">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Sales Price</label>
-                                    <input type="text" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Enter Price" name="Product_Title">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Tax Class</label>
-                                    <input type="text" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Enter Tax Class" name="Product_Title">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Shipping Class</label>
-                                    <input type="text" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Enter Shipping Class" name="Product_Title">
                                 </div>
                             </div>
                         </div>
@@ -157,28 +157,28 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>SKU</label>
-                                    <input type="text" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Enter SKU" name="Product_Title">
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Vendor ID</label>
-                                    <input type="text" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Enter ID" name="Product_Title">
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Stock</label>
-                                    <input type="number" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="number" class="form-control" placeholder="Enter stock" name="Product_Title">
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Stock Alert</label>
-                                    <input type="number" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="number" class="form-control" placeholder="Enter Stock Alert" name="Product_Title">
                                 </div>
                             </div>
                             <div class="col-sm-3">
@@ -197,7 +197,7 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Max Number of order in bulk</label>
-                                    <input type="number" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="number" class="form-control" placeholder="Enter Number of Orders" name="Product_Title">
                                 </div>
                             </div>
                         </div>
@@ -209,7 +209,7 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Tags</label>
-                                    <input type="text" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Enter SEO" name="Product_Title">
                                 </div>
                             </div>
                             
