@@ -337,7 +337,7 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="pages/layout/top-nav.html" class="nav-link">
+                                    <a href="add-employee" class="nav-link">
                                         <i class="fa fa-plus nav-icon" aria-hidden="true"></i>
                                         <p>Add Employee</p>
                                     </a>
@@ -389,63 +389,39 @@
                                         <p>Delete Vendors</p>
                                     </a>
                                 </li>
+                                <li class="nav-item">
+                                    <a href="pages/layout/top-nav.html" class="nav-link">
+                                        <i class="fa fa-plus nav-icon" aria-hidden="true"></i>
+                                        <p>View</p>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-tree"></i>
                                 <p>
-                                    UI Elements
+                                    Service Man 
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="pages/UI/general.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>General</p>
+                                 <li class="nav-item">
+                                    <a href="pages/layout/top-nav.html" class="nav-link">
+                                        <i class="fa fa-plus nav-icon" aria-hidden="true"></i>
+                                        <p>Add Service man</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/UI/icons.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Icons</p>
+                                    <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                                        <i class="fa fa-wrench nav-icon" aria-hidden="true"></i>
+                                        <p>Edit service man </p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/UI/buttons.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Buttons</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/UI/sliders.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Sliders</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/UI/modals.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Modals & Alerts</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/UI/navbar.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Navbar & Tabs</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/UI/timeline.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Timeline</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/UI/ribbons.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Ribbons</p>
+                                    <a href="pages/layout/boxed.html" class="nav-link">
+                                        <i class="fa fa-ban nav-icon" aria-hidden="true"></i>
+                                        <p>Delete service man</p>
                                     </a>
                                 </li>
                             </ul>
@@ -454,33 +430,27 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-edit"></i>
                                 <p>
-                                    Forms
+                                    Delievery Man
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="pages/forms/general.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>General Elements</p>
+                                    <a href="pages/layout/top-nav.html" class="nav-link">
+                                        <i class="fa fa-plus nav-icon" aria-hidden="true"></i>
+                                        <p>Add Delievery man</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/forms/advanced.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Advanced Elements</p>
+                                    <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                                        <i class="fa fa-wrench nav-icon" aria-hidden="true"></i>
+                                        <p>Edit Delievery man </p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/forms/editors.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Editors</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/forms/validation.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Validation</p>
+                                    <a href="pages/layout/boxed.html" class="nav-link">
+                                        <i class="fa fa-ban nav-icon" aria-hidden="true"></i>
+                                        <p>Delete Delievery man</p>
                                     </a>
                                 </li>
                             </ul>

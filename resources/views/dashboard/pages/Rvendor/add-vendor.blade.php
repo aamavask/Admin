@@ -38,8 +38,18 @@
             </div>
             <hr>
             <div class="form-group">
-                <label>Shop Image</label>
-                <input type="image" class="form-control"  name="Product_Title">
+                    <label for="img">Shop image: </label>
+                     <input  style="border: 2px solid black; border-radius: 8px" type="file" id="img" name="img">
+            </div>
+            <hr>
+            <div class="form-group">
+                <label>Shop Address</label>
+                <input type="text" class="form-control" placeholder="Enter address...." name="Product_Title">
+            </div>
+            <hr>
+            <div class="form-group">
+                <label>Phone Number:</label>
+                <input type="number" class="form-control" placeholder="Enter address...." name="Product_Title">
             </div>
             <hr>
         </div>

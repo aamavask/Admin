@@ -20,6 +20,7 @@ Route::get('/', function () {
 Auth::routes();
 Route::post('/add_data', 'HomeController@prodinsert');
 Route::get('/prodinfo', 'HomeController@prodinfo');
+Route::get('/add-employee', 'HomeController@add_emp');
 Route::get('/add-service', 'HomeController@service1');
 Route::get('/show-all-products', 'HomeController@retrive');
 Route::get('/home', 'HomeController@index')->name('home');
