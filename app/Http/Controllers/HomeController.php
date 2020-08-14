@@ -64,4 +64,9 @@ class HomeController extends Controller
         return view('dashboard.pages.services.add-product', compact('usdt'));
     }
 
+    public function add_vendor()
+    {
+        $usdt = Admins::where('id', '1')->first();
+        return view('dashboard.pages.Rvendor.add-vendor', compact('usdt'));
+    }
 }
