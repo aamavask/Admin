@@ -372,7 +372,7 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="pages/layout/top-nav.html" class="nav-link">
+                                    <a href="add-vendor" class="nav-link">
                                         <i class="fa fa-plus nav-icon" aria-hidden="true"></i>
                                         <p>Add Vendors</p>
                                     </a>
@@ -436,7 +436,7 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="pages/layout/top-nav.html" class="nav-link">
+                                    <a href="add-deliverman" class="nav-link">
                                         <i class="fa fa-plus nav-icon" aria-hidden="true"></i>
                                         <p>Add Delievery man</p>
                                     </a>

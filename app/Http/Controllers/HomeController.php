@@ -75,5 +75,24 @@ class HomeController extends Controller
     }
 
 
+
+    public function add_serviceman()
+    {
+        $usdt = Admins::where('id', '1')->first();
+        return view('dashboard.pages.Serviceman.add-service-man', compact('usdt'));
+    }
+   
+    public function add_deliverman()
+    {
+        $usdt = Admins::where('id', '1')->first();
+        return view('dashboard.pages.Deliever-man.add-deliverman', compact('usdt'));
+
+    }
+    public function add_vendor()
+    {
+        $usdt = Admins::where('id', '1')->first();
+        return view('dashboard.pages.Rvendor.add-vendor', compact('usdt'));
+
 }
 
+}
