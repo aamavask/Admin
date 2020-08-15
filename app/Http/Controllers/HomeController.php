@@ -67,6 +67,7 @@ class HomeController extends Controller
         $usdt = Admins::where('id', '1')->first();
         return view('dashboard.pages.employee.add-employee', compact('usdt')); 
     }
+<<<<<<< HEAD
     public function add_serviceman()
     {
         $usdt = Admins::where('id', '1')->first();
@@ -77,6 +78,14 @@ class HomeController extends Controller
     {
         $usdt = Admins::where('id', '1')->first();
         return view('dashboard.pages.Deliever-man.add-deliverman', compact('usdt'));
+=======
+
+
+    public function add_vendor()
+    {
+        $usdt = Admins::where('id', '1')->first();
+        return view('dashboard.pages.Rvendor.add-vendor', compact('usdt'));
+>>>>>>> b6215b9fc8b39ed6d4217f139f026b791a91b218
     }
 }
 

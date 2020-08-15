@@ -26,9 +26,14 @@ Route::get('/show-all-products', 'HomeController@retrive');
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/add-products', 'HomeController@add_products')->name('add products');
+<<<<<<< HEAD
 Route::get('/add-service-man', 'HomeController@add_serviceman');
 Route::get('/add-deliverman', 'HomeController@add_deliverman');
 
+=======
+// All-vendors 
+Route::get('/add-vendor', 'HomeController@add_vendor');
+>>>>>>> b6215b9fc8b39ed6d4217f139f026b791a91b218
 
 
 
