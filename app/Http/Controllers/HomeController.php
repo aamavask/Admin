@@ -22,7 +22,7 @@ class HomeController extends Controller
      * Show the application dashboard.
      *
      * @return \Illuminate\Contracts\Support\Renderable
-     */
+     **/
     public function index()
     {
         $usdt = Admins::where('id', '1')->first();
@@ -46,7 +46,7 @@ class HomeController extends Controller
         $prod->longdesc = $req->longdesc;
         $prod->save();
     }
-// to show tableform insert present in view (tableform)
+    // to show tableform insert present in view (tableform)
     public function prodinfo()
     {
         return view('dashboard.pages.products.tableform');
@@ -67,4 +67,13 @@ class HomeController extends Controller
         $usdt = Admins::where('id', '1')->first();
         return view('dashboard.pages.employee.add-employee', compact('usdt')); 
     }
+  
+    public function service_man()
+    {
+        $usdt = Admins::where('id', '1')->first();
+        return view('dashboard.pages.serviceman.add-serviceman', compact('usdt'));
+    }
+
+
 }
+

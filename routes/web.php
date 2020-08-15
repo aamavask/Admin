@@ -27,6 +27,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/add-products', 'HomeController@add_products')->name('add products');
 
+Route::get('/add-serviceman', 'HomeController@service_man');
+
+
 
 
 
