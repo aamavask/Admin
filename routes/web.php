@@ -26,15 +26,23 @@ Route::get('/show-all-products', 'HomeController@retrive');
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/add-products', 'HomeController@add_products')->name('add products');
+<<<<<<< HEAD
 
+=======
+>>>>>>> d9023d794a3bc1b36216d1579dc71ac3f8ef65ed
 Route::get('/add-service-man', 'HomeController@add_serviceman');
 Route::get('/add-deliverman', 'HomeController@add_deliverman');
+Route::get('/add-deliverman', 'HomeController@add_deliverman');
 
+
+<<<<<<< HEAD
 
 Route::get('/add-vendor', 'HomeController@add_vendor');
 
 Route::get('/add-serviceman', 'HomeController@service_man');
 
+=======
+>>>>>>> d9023d794a3bc1b36216d1579dc71ac3f8ef65ed
 
 
 
