@@ -6,7 +6,7 @@
             <!-- add products form elements disabled -->
             <div class="card card-warning">
                 <div class="card-header">
-                    <h3 class="card-title" style=" text-transform: uppercase; font-weight: bold;">Add Empolyee</h3>
+                    <h3 class="card-title" style=" text-transform: uppercase; font-weight: bold;">Add Delivery-Man</h3>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
@@ -28,34 +28,56 @@
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <!-- text input -->
                                 <div class="form-group">
-                                    <label>Email</label>
-                                    <input type="text" class="form-control" placeholder="Email" name="Product_Title">
+                                    <label>EMAIL</label>
+                                    <div class="input-group mb-6">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Enter EMAIL">
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Password</label>
-                                    <input type="password" class="form-control" placeholder="Title" name="Product_Title">
+                                    <div class="input-group mb-6">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                        </div>
+                                        <input type="password" class="form-control" placeholder="Enter Password">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-6">
                                 <div class="form-group">
                                     <label for="exampleFormControlFile1">Put Image</label>
                                     <input type="file" class="form-control-file" id="exampleFormControlFile1">
                                 </div>
+                            </div>
+                            <div class="col-6">
+                                <!-- text input -->
+                                <div class="form-group">
+                                    <label>Mobile Number</label>
+                                    <div class="input-group mb-6">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fas fa-mobile"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Enter Mobile Number">
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12">
                                 <!-- text input -->
                                 <div class="form-group">
-                                    <label>Address</label>
-                                    <input type="text" class="form-control" placeholder="Enter Address"
+                                    <label>Employee Address</label>
+                                    <input type="text" class="form-control" placeholder="Enter Employee Address"
                                         name="Product_Title">
                                 </div>
                             </div>
@@ -78,16 +100,29 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
-                                    <label>Mobile Number</label>
-                                    <div class="input-group mb-6">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text"><i class="fas fa-mobile"></i></span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="Enter Mobile Number">
-                                    </div>
+                                    <label>Vehicle 1 Number</label>
+                                    <input type="text" class="form-control" placeholder="Vehicle 1 Number" name="Product_Title">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <!-- text input -->
+                                <div class="form-group">
+                                    <label>Vehicle 2 Number</label>
+                                    <input type="number" class="form-control" placeholder="Vehicle 2 Number"
+                                        name="Product_Title">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <!-- text input -->
+                                <div class="form-group">
+                                    <label>Orders Completed</label>
+                                    <input type="number" class="form-control" placeholder="Orders completed"
+                                        name="Product_Title">
                                 </div>
                             </div>
                         </div>
@@ -99,10 +134,6 @@
                 </div>
                 <!-- /.card-body -->
             </div>
-            <!-- /.card -->
-            <!-- general form elements disabled -->
-
-            <!-- /.card -->
         </div>
     </div>
 
