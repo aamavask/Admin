@@ -22,6 +22,13 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/add-products', 'HomeController@add_products')->name('add products');
+Route::get('/add-employee', 'HomeController@add_emp');
+Route::get('/add-service', 'HomeController@add_services');
+Route::get('/add-vendor', 'HomeController@add_vendor');
+Route::get('/add-service-man', 'HomeController@add_serviceman');
+Route::get('/add-deliverman', 'HomeController@add_deliverman');
+Route::get('/add-category', 'HomeController@add_category');
+
 
 
 
