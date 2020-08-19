@@ -346,94 +346,70 @@
           </li>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tree"></i>
+              <i class="fa fa-bookmark nav-icon" aria-hidden="true"></i>
               <p>
-                UI Elements
+                Cupons
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/UI/general.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>General</p>
+                <a href="add-cupons" class="nav-link">
+                  <i class="fa fa-plus nav-icon" aria-hidden="true"></i>
+                  <p>Add Cupons</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/UI/icons.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Icons</p>
+                <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                  <i class="fa fa-wrench nav-icon" aria-hidden="true"></i>
+                  <p>Edit Cupons</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/UI/buttons.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Buttons</p>
+                <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                  <i class="fa fa-wrench nav-icon" aria-hidden="true"></i>
+                  <p>View Cupons</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/UI/sliders.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Sliders</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/UI/modals.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Modals & Alerts</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/UI/navbar.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Navbar & Tabs</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/UI/timeline.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Timeline</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/UI/ribbons.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Ribbons</p>
+                <a href="pages/layout/boxed.html" class="nav-link">
+                  <i class="fa fa-ban nav-icon" aria-hidden="true"></i>
+                  <p>Delete Cupons</p>
                 </a>
               </li>
             </ul>
           </li>
-          <li class="nav-item has-treeview">
+        <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-edit"></i>
+              <i class="fa fa-bookmark nav-icon" aria-hidden="true"></i>
               <p>
-                Forms
+                Customers
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/forms/general.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>General Elements</p>
+                <a href="add-customers" class="nav-link">
+                  <i class="fa fa-plus nav-icon" aria-hidden="true"></i>
+                  <p>Add Customers</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/advanced.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Advanced Elements</p>
+                <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                  <i class="fa fa-wrench nav-icon" aria-hidden="true"></i>
+                  <p>Edit Customers</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/editors.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Editors</p>
+                <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                  <i class="fa fa-wrench nav-icon" aria-hidden="true"></i>
+                  <p>View Customers</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/forms/validation.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Validation</p>
+                <a href="pages/layout/boxed.html" class="nav-link">
+                  <i class="fa fa-ban nav-icon" aria-hidden="true"></i>
+                  <p>Delete Customers</p>
                 </a>
               </li>
             </ul>

@@ -23,6 +23,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/add-products', 'HomeController@add_products')->name('add products');
 
+Route::get('/add-cupons', 'HomeController@add_cupons')->name('add cupons');
+
+Route::get('/add-customers', 'HomeController@add_customers')->name('add customers');
+
+
 
 
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Admins;
+use App\Customer;
 
 class HomeController extends Controller
 {
@@ -35,4 +36,21 @@ class HomeController extends Controller
 
         return view('dashboard.pages.products.add_products', compact('usdt'));
     }
+
+    public function add_cupons()
+    {
+        $usdt = Admins::where('id', '1')->first();
+
+        return view('dashboard.pages.cupons.add_cupons', compact('usdt'));
+    }
+
+    public function add_customers()
+    {
+        $usdt = Admins::where('id', '1')->first();
+
+        return view('dashboard.pages.customers.add_customers', compact('usdt'));
+    }
+
+
+
 }
