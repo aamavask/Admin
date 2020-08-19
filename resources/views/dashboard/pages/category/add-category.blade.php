@@ -32,11 +32,16 @@
                               <div class="col-4">
                                   <!-- select -->
                                   <div class="form-group">
-                                      <label>Parent Category</label>
-                                      <select class="form-control">
-                                          <option>Product</option>
-                                          <option>Service</option>
-                                      </select>
+                                      <label for="browser">Parent Category</label>
+                                      <br>
+                                      <input list="browsers" class="form-control" name="browser" id="browser">
+                                      <datalist id="browsers">
+                                          <option value="Edge">
+                                          <option value="Firefox">
+                                          <option value="Chrome">
+                                          <option value="Opera">
+                                          <option value="Safari">
+                                      </datalist>
                                   </div>
                               </div>
                           </div>

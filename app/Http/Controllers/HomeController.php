@@ -46,11 +46,7 @@ class HomeController extends Controller
         $usdt = Admins::where('id', '1')->first();
         return view('dashboard.pages.employee.add-employee', compact('usdt'));
     }
-    public function add_vendor()
-    {
-        $usdt = Admins::where('id', '1')->first();
-        return view('dashboard.pages.Rvendor.add-vendor', compact('usdt'));
-    }
+    
     public function add_serviceman()
     {
         $usdt = Admins::where('id', '1')->first();
@@ -65,6 +61,11 @@ class HomeController extends Controller
     {
         $usdt = Admins::where('id', '1')->first();
         return view('dashboard.pages.category.add-category', compact('usdt'));
+    }
+    public function add_offer()
+    {
+        $usdt = Admins::where('id', '1')->first();
+        return view('dashboard.pages.offer.add-offer', compact('usdt'));
     }
 }
 

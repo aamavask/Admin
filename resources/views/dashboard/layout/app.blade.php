@@ -430,6 +430,30 @@
                         </li>
                         <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
+                                <i class="nav-icon fa fa-users" aria-hidden="true"></i>
+                                <p>
+                                    Offer
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="add-offer" class="nav-link">
+                                        <i class="fa fa-plus nav-icon" aria-hidden="true"></i>
+                                        <p>Add offer</p>
+                                    </a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a href="view-offer" class="nav-link">
+                                        <i class="fa fa-plus nav-icon" aria-hidden="true"></i>
+                                        <p>View offer</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item has-treeview">
+                            <a href="#" class="nav-link">
                                 <i class="fas fa-users-cog nav-icon"></i>
                                 <p>
                                     Service Man 
