@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Admins;
-use App\Customer;
 
 class HomeController extends Controller
 {
@@ -51,6 +50,37 @@ class HomeController extends Controller
         return view('dashboard.pages.customers.add_customers', compact('usdt'));
     }
 
+    public function add_services()
+    {
+        $usdt = Admins::where('id', '1')->first();
 
-
+        return view('dashboard.pages.services.add_services', compact('usdt'));
+    }
+    public function add_emp()
+    {
+        $usdt = Admins::where('id', '1')->first();
+        return view('dashboard.pages.employee.add-employee', compact('usdt'));
+    }
+    
+    public function add_serviceman()
+    {
+        $usdt = Admins::where('id', '1')->first();
+        return view('dashboard.pages.Servicesman.add-serviceman', compact('usdt'));
+    }
+    public function add_deliverman()
+    {
+        $usdt = Admins::where('id', '1')->first();
+        return view('dashboard.pages.Deliverman.add-deliverman', compact('usdt'));
+    }
+    public function add_category()
+    {
+        $usdt = Admins::where('id', '1')->first();
+        return view('dashboard.pages.category.add-category', compact('usdt'));
+    }
+    public function add_offer()
+    {
+        $usdt = Admins::where('id', '1')->first();
+        return view('dashboard.pages.offer.add-offer', compact('usdt'));
+    }
 }
+
