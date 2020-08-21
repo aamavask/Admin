@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Admins;
+use App\Service;
+use App\Employee;
 
 class HomeController extends Controller
 {
@@ -82,4 +84,33 @@ class HomeController extends Controller
         $usdt = Admins::where('id', '1')->first();
         return view('dashboard.pages.offer.add-offer', compact('usdt'));
     }
+    public function add_services_data_(REQUEST $req)
+    {
+        $data = new Service;
+        $data->serv_name = $req->service_name ;
+        $data->providers = $req->providers ;
+        $data->category_id = $req->Category_ID ;
+        $data->short_desc = $req->Short_description;
+        $data->long_desc = $req->Long_description ;
+        $data->specification= $req->speci;
+        $data->highlights = $req->highlight ;
+        $data->start_time = $req->Start_time ;
+        $data->end_time = $req->End_time;
+        $data->save();
+    }
+    public function add_employees_data_(REQUEST $req)
+    {
+        $data = new Employee;
+        $data->First_name = $req->First_Name;
+        $data->Last_name = $req->Last_Name;
+        $data->Email = $req->Email;
+        $data->Password = $req->password;
+        $data->Img = $req->Image;
+        $data->Address = $req->Address;
+        $data->DOB = $req->DOB;
+        $data->Aadhar_card = $req->Aadhar;
+        $data->Mobile_no = $req->Mobile;
+        $data->save();							
+    }
+    
 }

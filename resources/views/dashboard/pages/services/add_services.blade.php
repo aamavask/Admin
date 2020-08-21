@@ -12,7 +12,8 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                    <form role="form">
+                    <form role="form" action="/add-services-data" method="POST">
+                        @csrf
                         <h3 style="text-decoration: underline;">Product Basic Details</h3>
                         <div class="row">
 
@@ -21,7 +22,7 @@
                                 <div class="form-group">
                                     <label for="Service_name">Service name</label>
                                     <input type="text" class="form-control" placeholder="Service Name" id="Service_name"
-                                        name="Service name">
+                                        name="service_name">
                                 </div>
                             </div>
 
@@ -35,7 +36,7 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label for="Providers">Providers</label>
-                                    <input type="text" class="form-control" placeholder="Providers" name="Providers"
+                                    <input type="text" class="form-control" placeholder="Providers" name="providers"
                                         id="Providers">
                                 </div>
                             </div>
@@ -43,7 +44,7 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label for="Category_ID">Category ID</label>
-                                    <input type="text" class="form-control" placeholder="Category ID" name="Category ID"
+                                    <input type="text" class="form-control" placeholder="Category ID" name="Category_ID"
                                         id="Category_ID">
                                 </div>
                             </div>
@@ -54,7 +55,7 @@
                                 <!-- textarea -->
                                 <div class="form-group">
                                     <label for="Short_desc">Short Discription</label>
-                                    <textarea class="form-control" rows="3" placeholder="Short Discription..."
+                                    <textarea class="form-control" rows="3" placeholder="Short_description..." name="Short_description"
                                         id="Short_desc"></textarea>
                                 </div>
                             </div>
@@ -64,7 +65,7 @@
                                 <!-- textarea -->
                                 <div class="form-group">
                                     <label for="Long_desc">Long Discription</label>
-                                    <textarea class="form-control" rows="5" placeholder="Long Discription..."
+                                    <textarea class="form-control" rows="5" placeholder="Long Description..." name="Long_description"
                                         id="Long_desc"></textarea>
                                 </div>
                             </div>
@@ -74,7 +75,7 @@
                                 <!-- textarea -->
                                 <div class="form-group">
                                     <label for="speci">Specification</label>
-                                    <textarea class="form-control" rows="5" id="speci"
+                                    <textarea class="form-control" rows="5" id="speci" name="speci"
                                         placeholder="Specification..."></textarea>
                                 </div>
                             </div>
@@ -84,7 +85,7 @@
                                 <!-- textarea -->
                                 <div class="form-group">
                                     <label for="highlights">Highlights</label>
-                                    <textarea class="form-control" rows="2" id="highlights"
+                                    <textarea class="form-control" rows="2" id="highlights" name="highlight"
                                         placeholder="Highlights..."></textarea>
                                 </div>
                             </div>
@@ -99,14 +100,14 @@
                                 <div class="form-group">
                                     <label for="Start_Time">Start Time</label>
                                     <input type="text" class="form-control" placeholder="Title" id="Start_Time"
-                                        name="Product_Title">
+                                        name="Start_time">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>End Time</label>
-                                    <input type="text" class="form-control" placeholder="Title" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Title" name="End_time">
                                 </div>
                             </div>
                         </div>

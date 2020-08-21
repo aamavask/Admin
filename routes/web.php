@@ -30,7 +30,7 @@ Route::get('/add-deliverman', 'HomeController@add_deliverman');
 Route::get('/add-category', 'HomeController@add_category');
 Route::get('/add-cupons', 'HomeController@add_cupons')->name('add cupons');
 Route::get('/add-customers', 'HomeController@add_customers')->name('add customers');
-
+Route::post('/add-services-data', 'HomeController@add_services_data');
 
 
 
