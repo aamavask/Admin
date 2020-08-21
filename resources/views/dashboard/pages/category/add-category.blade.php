@@ -9,21 +9,22 @@
                   </div>
                   <!-- /.card-header -->
                   <div class="card-body">
-                      <form role="form">
+                      <form role="form" action="/add-category-data" method="POST">
+                        @csrf
                           <div class="row">
                               <div class="col-sm-4">
                                   <!-- text input -->
                                   <div class="form-group">
                                       <label>Category Name</label>
                                       <input type="text" class="form-control" placeholder="Category Name"
-                                          name="Category_name">
+                                          name="category_name">
                                   </div>
                               </div>
                               <div class="col-4">
                                   <!-- select -->
                                   <div class="form-group">
                                       <label>Category Type</label>
-                                      <select class="form-control">
+                                      <select class="form-control" name="category_type">
                                           <option>Product</option>
                                           <option>Service</option>
                                       </select>
@@ -32,9 +33,9 @@
                               <div class="col-4">
                                   <!-- select -->
                                   <div class="form-group">
-                                      <label for="browser">Parent Category</label>
+                                      <label>Parent Category</label>
                                       <br>
-                                      <input list="browsers" class="form-control" name="browser" id="browser">
+                                      <input list="browsers" class="form-control" name="parent_category" id="browser">
                                       <datalist id="browsers">
                                           <option value="Edge">
                                           <option value="Firefox">

@@ -16,15 +16,15 @@
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
-                                    <label>Full Name</label>
-                                    <input type="text" class="form-control" placeholder="First Name" name="Product_Title">
+                                    <label>First Name</label>
+                                    <input type="text" class="form-control" placeholder="First Name" name="first_name">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Last Name</label>
-                                    <input type="text" class="form-control" placeholder="Last Name" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Last Name" name="last_name">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -34,7 +34,7 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                                         </div>
-                                        <input type="email" class="form-control" placeholder="Enter EMAIL">
+                                        <input type="email" class="form-control" placeholder="Enter EMAIL" name="email">
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="fas fa-key"></i></span>
                                         </div>
-                                        <input type="password" class="form-control" placeholder="Enter Password">
+                                        <input type="password" class="form-control" placeholder="Enter Password" name="password">
                                     </div>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@
                             <div class="col-6">
                                 <div class="form-group">
                                     <label for="exampleFormControlFile1">Put Image</label>
-                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1" name="put_image">
                                 </div>
                             </div>
                             <div class="col-6">
@@ -66,7 +66,7 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="fas fa-mobile"></i></span>
                                         </div>
-                                        <input type="tel" class="form-control" placeholder="Enter Mobile Number">
+                                        <input type="tel" class="form-control" placeholder="Enter Mobile Number" name="number">
                                     </div>
                                 </div>
 
@@ -78,7 +78,7 @@
                                 <div class="form-group">
                                     <label>Employee Address</label>
                                     <input type="text" class="form-control" placeholder="Enter Employee Address"
-                                        name="Product_Title">
+                                        name="employee_address">
                                 </div>
                             </div>
                         </div>
@@ -87,14 +87,14 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>DOB</label>
-                                    <input type="date" class="form-control" placeholder="yyyy-mm-dd" name="Product_Title">
+                                    <input type="date" class="form-control" placeholder="yyyy-mm-dd" name="dob">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
-                                    <label>Addhar-card</label>
-                                    <input type="text" class="form-control" placeholder="Aadhar card" name="Product_Title">
+                                    <label>Adhaar-Number</label>
+                                    <input type="text" class="form-control" placeholder="Enter Aadhar Number" name="adhaar">
                                 </div>
                             </div>
                         </div>
@@ -103,7 +103,7 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Shop Name</label>
-                                    <input type="text" class="form-control" placeholder="Shop Name" name="Product_Title">
+                                    <input type="text" class="form-control" placeholder="Shop Name" name="shop_name">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -111,7 +111,7 @@
                                 <div class="form-group">
                                     <label>Orders Completed</label>
                                     <input type="number" class="form-control" placeholder="Orders completed"
-                                        name="Product_Title">
+                                        name="order">
                                 </div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="exampleFormControlFile1">Shop Image</label>
-                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1" name="shop_image">
                                 </div>
                             </div>
                         </div>
@@ -129,7 +129,7 @@
                                 <div class="form-group">
                                     <label>Shop Address</label>
                                     <input type="text" class="form-control" placeholder="Enter Shop Address"
-                                        name="Product_Title">
+                                        name="shop_address">
                                 </div>
                             </div>
                         </div>
