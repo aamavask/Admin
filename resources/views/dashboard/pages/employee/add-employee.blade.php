@@ -46,7 +46,7 @@
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="exampleFormControlFile1">Put Image</label>
-                                    <input type="text" class="form-control-file" id="exampleFormControlFile1" name="Image">
+                                    <input type="text" class="form-control-file" id="exampleFormControlFile1" name="Img">
                                 </div>
                             </div>
                         </div>
