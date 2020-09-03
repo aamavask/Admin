@@ -159,4 +159,22 @@ class HomeController extends Controller
         $serviceman->Shop_Address = $req->first_name;
         $serviceman->save();
     }
+    public function add_employee_data(REQUEST $req){
+        $data = new Employee;
+        $data->First_Name = $req->First_Name;
+        $data->Last_Name = $req->Last_Name;
+        $data->Email = $req->Email;
+        $data->Password = $req->password;
+        $data->Address = $req->Address;
+        $data->DOB = $req->DOB;
+        $data->Aadhar= $req->Aadhar;
+        $data->Mobile= $req->Mobile;
+        if ($req->hasFile('Img'))
+        {
+            $filename = $req->Img->getClientOriginalName();
+            $file_details =  $req->Img->move('uploads', $filename);
+            $data->Img = $file_details; 
+        }
+        $data->save();			
+    }
 }

@@ -10,9 +10,9 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                    <form role="form">
+                    <form role="form" action="add-employee-data" method="POST" enctype="multipart/form-data">
+                        @csrf
                         <div class="row">
-
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
@@ -46,7 +46,7 @@
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="exampleFormControlFile1">Put Image</label>
-                                    <input type="text" class="form-control-file" id="exampleFormControlFile1" name="Img">
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1" name="Img">
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
                                 <div class="form-group">
                                     <label>DOB</label>
                                     <input type="date" class="form-control" placeholder="Date Of Birth"
-                                        name="DOB">
+                                        name="DOB"> 
                                 </div>
                             </div>
                             <div class="col-sm-6">

@@ -40,4 +40,5 @@ Route::get('/add-cupons', 'HomeController@add_cupons')->name('add cupons');
 Route::get('/add-customers', 'HomeController@add_customers')->name('add customers');
 
 Route::post('/add-services-data', 'HomeController@add_services_data');
+Route::post('/add-employee-data', 'HomeController@add_employee_data');
 
